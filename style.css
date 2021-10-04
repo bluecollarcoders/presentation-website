@@ -73,3 +73,22 @@ body{
     transform: translateY(-1200px);
     animation: heading var(--animate-speed) forwards ease-in;
 }
+
+#page-1 p {
+    transform: translateX(-1800px);
+    animation: text var(--animate-speed) forwards ease-in 2s;
+}
+
+/* KeyFrames */
+
+@keyframes heading {
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes text {
+    to {
+        transform: translateX(0);
+    }
+}
